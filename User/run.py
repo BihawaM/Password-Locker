@@ -126,5 +126,5 @@ def main():
         else: 
             print("Please use the short codes.")
              
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
