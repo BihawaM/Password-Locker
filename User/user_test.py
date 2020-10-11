@@ -17,14 +17,14 @@ class TestUser(unittest.TestCase):
         self.new_user = User("Instagram password","Bello_Murray","pass1234#")
         
     
-#     def test_init(self):
-#         """
-#         test_init test case to test if the object is initialized properly
-#         """
+    def test_init(self):
+        """
+        test_init test case to test if the object is initialized properly
+        """
         
-#         self.assertEqual(self.new_user.details,"Instagram password")
-#         self.assertEqual(self.new_user.login_username,"Bello_Murray")
-#         self.assertEqual(self.new_user.password,"pass1234#")
+        self.assertEqual(self.new_user.details,"Instagram password")
+        self.assertEqual(self.new_user.login_username,"Bello_Murray")
+        self.assertEqual(self.new_user.password,"pass1234#")
         
         
 #     def test_save_user(self):
