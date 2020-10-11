@@ -31,20 +31,20 @@ class User:
         User.user_list.remove(self)
         
         
-    # @classmethod
-    # def find_by_details(cls,details):
-    #     """
-    #     Method that takes in a details and returns a user that matches the details.
+    @classmethod
+    def find_by_details(cls,details):
+        """
+        Method that takes in a details and returns a user that matches the details.
         
-    #     Args: 
-    #         details: details to search for
-    #     Returns:
-    #         Details of user that matches the details.     
-    #     """
+        Args: 
+            details: details to search for
+        Returns:
+            Details of user that matches the details.     
+        """
         
-    #     for user in cls.user_list:
-    #         if user.details == details:
-    #             return user
+        for user in cls.user_list:
+            if user.details == details:
+                return user
         
         
     # @classmethod
