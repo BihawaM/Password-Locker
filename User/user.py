@@ -64,13 +64,13 @@ class User:
         return False
     
     
-    # @classmethod
-    # def display_users(cls):
-    #     """
-    #     returns the user list
-    #     """
+    @classmethod
+    def display_users(cls):
+        """
+        returns the user list
+        """
         
-    #     return cls.user_list
+        return cls.user_list
     
     
     
