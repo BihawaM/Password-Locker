@@ -10,12 +10,12 @@ def create_user(details,logname,password):
     return new_user
 
 
-# def save_users(user):
-#     """
-#     Function to save user
-#     """
+def save_users(user):
+    """
+    Function to save user
+    """
     
-#     user.save_user()
+    user.save_user()
     
     
 # def del_contact(contact):
