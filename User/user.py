@@ -47,21 +47,21 @@ class User:
                 return user
         
         
-    # @classmethod
-    # def user_exists(cls,details):
-    #     """
-    #     Method that checks if a user existsfrom the user list.
-    #     Args:
-    #         details: details to search if it exists
-    #     Returns:
-    #         Boolean: True or false depensing if the user exists.     
-    #     """
+    @classmethod
+    def user_exists(cls,details):
+        """
+        Method that checks if a user existsfrom the user list.
+        Args:
+            details: details to search if it exists
+        Returns:
+            Boolean: True or false depensing if the user exists.     
+        """
         
-    #     for user in cls.user_list:
-    #         if user.details == details:
-    #             return True
+        for user in cls.user_list:
+            if user.details == details:
+                return True
             
-    #     return False
+        return False
     
     
     # @classmethod
