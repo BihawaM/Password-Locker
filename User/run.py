@@ -34,12 +34,12 @@ def find_user(details):
     return User.find_by_details(details)
 
 
-# def check_existing_users(details):
-#     """
-#     Function to check if an user exists with the details and returns a Boolean
-#     """
+def check_existing_users(details):
+    """
+    Function to check if an user exists with the details and returns a Boolean
+    """
     
-#     return User.user_exists(details)
+    return User.user_exists(details)
 
 
 # def display_users():
