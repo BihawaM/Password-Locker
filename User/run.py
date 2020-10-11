@@ -26,12 +26,12 @@ def del_contact(contact):
     user.delete_user
     
     
-# def find_user(details):
-#     """
-#     Function that finds a user by details and return the user
-#     """
+def find_user(details):
+    """
+    Function that finds a user by details and return the user
+    """
     
-#     return User.find_by_details(details)
+    return User.find_by_details(details)
 
 
 # def check_existing_users(details):
