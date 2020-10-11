@@ -9,12 +9,12 @@ class TestUser(unittest.TestCase):
     """
     
     
-#     def setUp(self):
-#         """
-#         Set up method to run before each test case
-#         """
+    def setUp(self):
+        """
+        Set up method to run before each test case
+        """
         
-#         self.new_user = User("Instagram password","Bello_Murray","pass1234#")
+        self.new_user = User("Instagram password","Bello_Murray","pass1234#")
         
     
 #     def test_init(self):
