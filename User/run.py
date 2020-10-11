@@ -18,12 +18,12 @@ def save_users(user):
     user.save_user()
     
     
-# def del_contact(contact):
-#     """
-#     Function to delete a user
-#     """
+def del_contact(contact):
+    """
+    Function to delete a user
+    """
     
-#     user.delete_user
+    user.delete_user
     
     
 # def find_user(details):
