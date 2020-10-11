@@ -82,18 +82,18 @@ class TestUser(unittest.TestCase):
         self.assertEqual(found_user.password,test_user.password)   
         
         
-#     def test_user_exists(self):
-#         """
-#         test to check if we can return a Boolean if we can't find the user.
-#         """
+    def test_user_exists(self):
+        """
+        test to check if we can return a Boolean if we can't find the user.
+        """
         
-#         self.new_user.save_user()
-#         test_user = User("WhatsApp password","Bihawa Mohamed","65432*")
-#         test_user.save_user()
+        self.new_user.save_user()
+        test_user = User("WhatsApp password","Bihawa Mohamed","65432*")
+        test_user.save_user()
         
-#         user_exists = User.user_exists("WhatsApp password")
+        user_exists = User.user_exists("WhatsApp password")
         
-#         self.assertTrue(user_exists)   
+        self.assertTrue(user_exists)   
         
         
 #     def test_display_all_users(self):
