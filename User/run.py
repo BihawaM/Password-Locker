@@ -1,13 +1,13 @@
 #!/usr/bin/env python3.6
 from user import User
 
-# def create_user(details,logname,password):
-#     """
-#     Function to create a new user
-#     """
+def create_user(details,logname,password):
+    """
+    Function to create a new user
+    """
     
-#     new_user = User(details,logname,password)
-#     return new_user
+    new_user = User(details,logname,password)
+    return new_user
 
 
 # def save_users(user):
