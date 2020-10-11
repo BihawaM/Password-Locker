@@ -16,11 +16,11 @@ class User:
         User.user_list.append(self)
         
         
-    # def __init__(self,details,login_username,password):
+    def __init__(self,details,login_username,password):
         
-    #     self.details = details
-    #     self.login_username = login_username
-    #     self.password = password
+        self.details = details
+        self.login_username = login_username
+        self.password = password
         
     
     # def delete_user(self):
