@@ -1,6 +1,6 @@
 # import pyperclip
-
 class User:
+
     """
     Class that generates new instances of users.
     """
@@ -8,12 +8,12 @@ class User:
     user_list = []
     
     
-    # def save_user(self):
-    #     """
-    #     save_user method saves user objects into user_list
-    #     """
+    def save_user(self):
+        """
+        save_user method saves user objects into user_list
+        """
         
-    #     User.user_list.append(self)
+        User.user_list.append(self)
         
         
     # def __init__(self,details,login_username,password):
