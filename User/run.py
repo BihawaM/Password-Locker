@@ -42,12 +42,12 @@ def check_existing_users(details):
     return User.user_exists(details)
 
 
-# def display_users():
-#     """
-#     Function that returns all the saved users
-#     """
+def display_users():
+    """
+    Function that returns all the saved users
+    """
     
-#     return User.display_users()     
+    return User.display_users()     
 
 
 # def main():
